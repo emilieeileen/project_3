@@ -188,6 +188,7 @@ export default async function setup(done) {
         {
           amenityName: 'Wifi',
           amenityValue: false
+          
         },
         {
           amenityName: 'Pet friendly',

@@ -18,6 +18,7 @@ You can log in and create an account, however, you may also use this log in to v
 - MongoDB
 - Mongoose
 - Npm
+- Axios
 - Insomnia
 - Git
 - Github
@@ -33,9 +34,9 @@ You can log in and create an account, however, you may also use this log in to v
 * **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers. **ALLOW** time for this.
 * **Be deployed online** so it's publicly accessible.
 
-##Timeframe: 1 week (5 working days)
+## Timeframe: 1 week (5 working days)
 ## Plan
-We early on established that we wanted to work on something travel related. We also decided on the fourmain components of the website: users, properties, bookings, comments and reviews. 
+We early on established that we wanted to work on something travel related. We also decided on the four main components of the website: users, properties, bookings, comments and reviews. 
 ## Database and Backend
 A lot of my work focused on the backend. This included the creation of the database and the controllers to add, edit and delete data. Firstly, we started on the models, which created the base for our content. while the user model followed a standard template, the property model was much more complex. To accommodate the arrays of amenities, comments and bookings linked back to a property, we nested the data in the property model. 
 ```js

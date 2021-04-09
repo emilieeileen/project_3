@@ -1,3 +1,5 @@
+### ![GA](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, Software Engineering Immersive
+
 # Arrivr
 
 For Project 3, my group and I decided to create an AirBnb clone, where we created our own MongoDB database and linked it to a React frontend. Users can create an account, book  and list properties as well as leave reviews on places they stayed. My role focused on creating the backend, specifically the controllers in Express and formatting how users saw bookings and comments on the front end depending on if they are a host, guest or regular user. While there are many components to this project, I will discuss my responsibilities below. 

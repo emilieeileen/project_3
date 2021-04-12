@@ -300,5 +300,14 @@ In both cases, our group debated if the page should automatically reload upon de
 ## Bugs
 - If you are the second person to comment on a property, it does not immediately appear unless the host has commented first.
 - When editing a review/comment, the text appears in both the user textbox as well as the main textbox below the reviews.
+
+## Wins and Challenges
+### Wins
+- Successfully creating components on the back end that displayed the correct information when called on the front end.
+- Finding a solution to user only being able to edit comments from the original text box. This was done by using a ternery to show a textbox around teh comment only to the comment owner. 
+
+### Challenges
+- Having the comments display differently for the posters and a regular user was a particular challenge, especially with the cutsom text box. We almost left the comments so that user could only post or delete them. However, by using a ternery to have the comment owner view a text box so they could edit the comment directly proved successful.
+
 ## Lessons Learned
 Working as a group was a new experience for all of us and I think it was beneficial to our learning. I enjoyed bouncing ideas off my teammates and helping them debug when they were stuck. If we were to tackle this project again, I don't believe we would change to much on the back end. On the frontend, I think some of our logic would change on how the properties are filtered and what page reloads or redirections were triggered by editing or deleting data.

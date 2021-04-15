@@ -308,6 +308,7 @@ In both cases, our group debated if the page should automatically reload upon de
 
 ### Challenges
 - Having the comments display differently for the posters and a regular user was a particular challenge, especially with the cutsom text box. We almost left the comments so that user could only post or delete them. However, by using a ternery to have the comment owner view a text box so they could edit the comment directly proved successful.
+- Intially, we had some issues with getting the controllers to work for getting, posting, putting and deleting properties. We discovered that this centered around how the ids for the properties were being called (.id vs ._id vs .propertyID). Being aware of how we may differently call the ids for the properties helped us debug not only on the back end but on the front end as well. 
 
 ## Lessons Learned
 Working as a group was a new experience for all of us and I think it was beneficial to our learning. I enjoyed bouncing ideas off my teammates and helping them debug when they were stuck. If we were to tackle this project again, I don't believe we would change to much on the back end. On the frontend, I think some of our logic would change on how the properties are filtered and what page reloads or redirections were triggered by editing or deleting data.

@@ -2,7 +2,7 @@
 
 # Arrivr
 
-For Project 3, my group and I decided to create an AirBnb clone, where we created our own MongoDB database and linked it to a React frontend. Users can create an account, book  and list properties as well as leave reviews on places they stayed. My role focused on creating the backend, specifically the controllers in Express and formatting how users saw bookings and comments on the front end depending on if they are a host, guest or regular user. While there are many components to this project, I will discuss my responsibilities below. 
+For Project 3, my group and I decided to create an AirBnb clone, where we created our own MongoDB database and linked it to a React frontend. Users can create an account, book and list properties as well as leave reviews on places they stayed. My role focused on creating the backend, specifically the controllers in Express and formatting how users saw bookings and comments on the front end depending on if they are a host, guest or regular user. While there are many components to this project, I will discuss my responsibilities below. 
 
 The project is deployed on Heroku which can be viewed here: https://arrivr-sei53.herokuapp.com/
 
@@ -230,7 +230,7 @@ property.comments.map((comment, index) => {
               </article>
             })
 ```
-To edit an delete reviews or comments, we used async functions with an axios request to put or delete the comment, as seen in the example below.
+To edit and delete reviews or comments, we used async functions with an axios request to put or delete the comment, as seen in the example below.
 ```js
 async function handleUpdateComment(commentId) {
     try {
